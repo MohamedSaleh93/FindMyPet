@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FindMyPet</string>
+    <string name="app_name">Find My Pet</string>
     <string name="pet_near_you">IS NEAR YOU</string>
     <string name="close">Close</string>
     <string name="tracker_page_description">As you get closer to %1$s, more rings will fill up. This helps you pinpoint where your furry friend is.</string>

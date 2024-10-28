@@ -36,7 +36,7 @@ object DependenciesProvider {
 			petTrackerRepository = providePetTrackerRepository()
 		)
 
-	fun petTrackerViewModel(): PetTrackerViewModel =
+	fun providePetTrackerViewModel(): PetTrackerViewModel =
 		petTrackerViewModel ?: PetTrackerViewModel(
 			scanPetTrackerUseCase = provideScanPetTrackerUseCase()
 		)
