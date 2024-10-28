@@ -4,6 +4,6 @@ import androidx.lifecycle.ViewModel
 import com.mohamedsaleh.findmypet.domain.IScanPetTrackerUseCase
 
 class PetTrackerViewModel(
-	private val scanTrackerUseCase: IScanPetTrackerUseCase,
+	private val scanPetTrackerUseCase: IScanPetTrackerUseCase,
 ): ViewModel() {
 }
